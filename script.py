@@ -1,3 +1,4 @@
+!/usr/bin/bash
 import os
 import sys
 
