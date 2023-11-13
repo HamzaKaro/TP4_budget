@@ -2,9 +2,9 @@ import os
 import sys
 
 
-if len(sys.argv) != 3:
-    print("Make sure you entered the script as such: python script.py <badhash> <goodhash>")
-    sys.exit(1)  
+# if len(sys.argv) != 3:
+#     print("Make sure you entered the script as such: python script.py <badhash> <goodhash>")
+#     # sys.exit(1)  
 
 script_name = sys.argv[0]
 badhash = sys.argv[1]
