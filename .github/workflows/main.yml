@@ -1,6 +1,5 @@
 name: Python package
 on: [push]
-env: BAD
 jobs:
   build:
 
@@ -14,4 +13,4 @@ jobs:
         - name: Install packages
           run: pip install -r requirements.txt
         - name: Run tests
-          run: python script.py ${{ env.BAD_COMMIT }} ${{ env.GOOD_COMMIT }}
+          run: python script.py ${{ BAD_COMMIT }} ${{ GOOD_COMMIT }}
